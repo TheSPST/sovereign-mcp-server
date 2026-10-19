@@ -1,0 +1,36 @@
+{
+  "name": "@sovereignbyte/mcp-server",
+  "version": "1.0.0",
+  "description": "The First Sovereign Data Archive & Cold-SQL Model Context Protocol (MCP) Server for Claude Desktop, Cursor, Antigravity, and VS Code",
+  "main": "bin/cli.js",
+  "bin": {
+    "sovereign-mcp": "bin/cli.js",
+    "sovereign-byte-mcp": "bin/cli.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sovereign-cloud",
+    "cold-sql",
+    "database",
+    "duckdb",
+    "parquet",
+    "claude",
+    "cursor",
+    "ai-agent"
+  ],
+  "author": "Sovereign Byte Technologies <sovereignbyte.tech@gmail.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheSPST/sovereign-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheSPST/sovereign-mcp-server/issues"
+  },
+  "homepage": "https://sovereignbyte.tech",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "preferGlobal": true
+}

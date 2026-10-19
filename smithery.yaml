@@ -1,0 +1,18 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - SOV_API_KEY
+    properties:
+      SOV_API_KEY:
+        type: string
+        description: "Your Sovereign Cloud API Key (starts with sov_live_ or sb_live_)"
+      SOVEREIGN_API_BASE:
+        type: string
+        description: "Sovereign Cloud API Base URL"
+        default: "https://api.sovereignbyte.tech"
+  commandFunction:
+    - npx
+    - -y
+    - "@sovereignbyte/mcp-server"
