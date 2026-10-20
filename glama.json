@@ -1,0 +1,18 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "name": "mcp-sovereign-cloud",
+  "description": "Query historical database dumps and cold data archives (CSV, Parquet, SQLite, SQL dumps) with sub-second DuckDB pushdown and zero production database risk.",
+  "maintainers": [
+    "TheSPST"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "duckdb",
+    "sql",
+    "data-archive",
+    "cold-storage",
+    "merkle-proof",
+    "database"
+  ]
+}
